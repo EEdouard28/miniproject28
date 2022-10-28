@@ -10,5 +10,6 @@ const app = express();
 app.use('/tips', tipsRouter);
 app.use('/feedback', feedbackRouter);
 // TODO: Initialize diagnostics route
+app.use('/diagnostics', diagnosticsRouter)
 
 module.exports = app;
