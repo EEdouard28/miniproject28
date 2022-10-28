@@ -6,5 +6,23 @@
   "dependencies": {
     "express": "^4.17.1",
     "uuid": "^8.3.2"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "watch": "nodemon server"
+  
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EEdouard28/miniproject28.git"
+  },
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/EEdouard28/miniproject28/issues"
+  },
+  "homepage": "https://github.com/EEdouard28/miniproject28#readme",
+  "description": "",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
   }
 }
